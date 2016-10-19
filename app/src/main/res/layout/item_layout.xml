@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:orientation="vertical"
+    >
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/tv_item_1"
+        android:text="xxxxx"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/tv_item_2"
+        android:text="xxxxx"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/tv_item_3"
+        android:text="xxxxx"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/tv_item_4"
+        android:text="xxxxx"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/tv_item_5"
+        android:text="xxxxx"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/tv_item_6"
+        android:text="xxxxx"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/tv_item_7"
+        android:text="xxxxx"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/tv_item_8"
+        android:text="xxxxx"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+</LinearLayout>

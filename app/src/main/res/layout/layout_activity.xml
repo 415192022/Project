@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/ll_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:gravity="center"
+            android:text="Y"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="70dp" />
+        <Button
+            android:id="@+id/btn_department"
+            android:gravity="center"
+            android:text="部门"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="70dp" />
+        <Button
+            android:id="@+id/btn_person"
+            android:gravity="center"
+            android:text="人员"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="70dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_below="@+id/ll_buttons"
+        android:id="@+id/ll_list_root"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="1dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        android:paddingTop="1dp"
+        >
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv_child"
+        android:background="#FFFFFF"
+        ></ListView>
+        <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:id="@+id/rv_child"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="300dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="#FFFFFF"-->
+            <!--android:scrollingCache="false"-->
+            <!--android:visibility="visible" >-->
+        <!--</android.support.v7.widget.RecyclerView>-->
+
+    </LinearLayout>
+
+    <ListView
+        android:visibility="gone"
+        android:id="@+id/lv_last"
+        android:layout_below="@+id/ll_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+</RelativeLayout>
